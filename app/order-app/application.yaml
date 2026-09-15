@@ -4,7 +4,7 @@ metadata:
   name: order-app
 spec:
   image: ghcr.io/phumitada/order-app:b2caff3
-  port: 55116
+  port: 55120
   imagePullSecret: ghcr-secret
   databaseRef: []
   domain: order-system.phumitada.com
