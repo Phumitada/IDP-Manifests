@@ -1,0 +1,7 @@
+apiVersion: paas.internal/v1
+kind: Database
+metadata:
+  name: claude-test-db2
+spec:
+  engine: postgres
+  storage: 1Gi
