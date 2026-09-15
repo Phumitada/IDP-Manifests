@@ -6,6 +6,7 @@ spec:
   image: ghcr.io/phumitada/order-api:b2caff3
   port: 55107
   imagePullSecret: ghcr-secret
-  databaseRef: []
+  databaseRef:
+    - order-api-postgres
   envSecretRefs:
     - order-api-env-secret
