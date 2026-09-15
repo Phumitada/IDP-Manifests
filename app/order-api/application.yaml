@@ -8,5 +8,6 @@ spec:
   imagePullSecret: ghcr-secret
   databaseRef:
     - order-api-postgres
+    - order-api-redis
   envSecretRefs:
     - order-api-env-secret
