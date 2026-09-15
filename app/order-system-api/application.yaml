@@ -9,5 +9,6 @@ spec:
   databaseRef:
     - order-api-postgres
     - order-api-redis
+    - claude-test-db2
   envSecretRefs:
     - order-system-api-env-secret
