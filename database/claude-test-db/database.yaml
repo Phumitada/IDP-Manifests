@@ -4,4 +4,4 @@ metadata:
   name: claude-test-db
 spec:
   engine: postgres
-  storage: 1Gi
+  storage: 2Gi
