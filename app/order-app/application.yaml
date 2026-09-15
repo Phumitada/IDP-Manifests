@@ -1,0 +1,12 @@
+apiVersion: paas.internal/v1
+kind: Application
+metadata:
+  name: order-app
+spec:
+  image: null
+  port: null
+  imagePullSecret: ghcr-secret
+  databaseRef: []
+  domain: order-system.phumitada.com
+  envSecretRefs:
+    - order-app-env-secret
