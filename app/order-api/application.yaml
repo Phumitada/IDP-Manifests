@@ -9,5 +9,6 @@ spec:
   databaseRef:
     - order-api-postgres
     - order-api-redis
+  domain: order-system-api
   envSecretRefs:
     - order-api-env-secret
