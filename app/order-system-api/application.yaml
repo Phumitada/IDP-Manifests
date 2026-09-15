@@ -1,0 +1,13 @@
+apiVersion: paas.internal/v1
+kind: Application
+metadata:
+  name: order-system-api
+spec:
+  image: ghcr.io/phumitada/order-system-api:b2caff3
+  port: 55090
+  imagePullSecret: ghcr-secret
+  databaseRef:
+    - order-api-postgres
+    - order-api-redis
+  envSecretRefs:
+    - order-system-api-env-secret
