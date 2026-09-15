@@ -4,7 +4,7 @@ metadata:
   name: order-api
 spec:
   image: ghcr.io/phumitada/order-api:b2caff3
-  port: 55110
+  port: 55113
   imagePullSecret: ghcr-secret
   databaseRef:
     - order-api-postgres
