@@ -1,0 +1,7 @@
+apiVersion: paas.internal/v1
+kind: Database
+metadata:
+  name: order-api-postgres
+spec:
+  engine: postgres
+  storage: 5Gi
