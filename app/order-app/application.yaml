@@ -7,6 +7,6 @@ spec:
   port: 80
   imagePullSecret: ghcr-secret
   databaseRef: []
-  domain: order-system.phumitada.com
+  domain: order-app.phumitada.com
   envSecretRefs:
     - order-app-env-secret
