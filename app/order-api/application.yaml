@@ -9,6 +9,6 @@ spec:
   databaseRef:
     - order-api-redis
     - order-api-postgres
-  domain: order-system-api.phumitada.com
+  domain: order-app-api.phumitada.com
   envSecretRefs:
     - order-api-env-secret
