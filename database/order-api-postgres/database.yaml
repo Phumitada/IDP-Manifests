@@ -4,4 +4,4 @@ metadata:
   name: order-api-postgres
 spec:
   engine: postgres
-  storage: 2Gi
+  storage: 5Gi
