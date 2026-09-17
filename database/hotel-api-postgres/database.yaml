@@ -1,7 +1,0 @@
-apiVersion: paas.internal/v1
-kind: Database
-metadata:
-  name: hotel-api-postgres
-spec:
-  engine: postgres
-  storage: 2Gi
