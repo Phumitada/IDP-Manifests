@@ -3,7 +3,7 @@ kind: Application
 metadata:
   name: hotel-app
 spec:
-  image: ghcr.io/phumitada/hotel-app:ecc73bb
+  image: ghcr.io/phumitada/hotel-app:a99d1c6
   port: 8080
   imagePullSecret: ghcr-secret
   databaseRef: []
