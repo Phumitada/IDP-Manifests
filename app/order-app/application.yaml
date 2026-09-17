@@ -3,7 +3,7 @@ kind: Application
 metadata:
   name: order-app
 spec:
-  image: ghcr.io/phumitada/order-app:b2caff3
+  image: ghcr.io/phumitada/order-app:b2caff3-1789640764210
   port: 8080
   imagePullSecret: ghcr-secret
   databaseRef: []
