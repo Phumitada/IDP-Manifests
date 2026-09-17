@@ -1,0 +1,12 @@
+apiVersion: paas.internal/v1
+kind: Application
+metadata:
+  name: hotel-app
+spec:
+  image: null
+  port: null
+  imagePullSecret: ghcr-secret
+  databaseRef: []
+  domain: hotel.phumitada.com
+  envSecretRefs:
+    - hotel-app-env-secret
