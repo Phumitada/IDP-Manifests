@@ -1,7 +1,0 @@
-apiVersion: paas.internal/v1
-kind: Database
-metadata:
-  name: hotel-api-redis
-spec:
-  engine: redis
-  storage: 1Gi
