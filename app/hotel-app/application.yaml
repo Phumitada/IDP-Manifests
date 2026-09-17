@@ -4,7 +4,7 @@ metadata:
   name: hotel-app
 spec:
   image: ghcr.io/phumitada/hotel-app:ecc73bb
-  port: 80
+  port: 8080
   imagePullSecret: ghcr-secret
   databaseRef: []
   domain: hotel.phumitada.com
