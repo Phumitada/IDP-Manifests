@@ -6,7 +6,8 @@ spec:
   image: ghcr.io/phumitada/diseases-map-api:37424c9-1789885168453
   port: 5207
   imagePullSecret: ghcr-secret
-  databaseRef: []
+  databaseRef:
+    - diseases-map-postgres
   domain: diseases-map-api.phumitada.com
   envSecretRefs:
     - diseases-map-api-env-secret
