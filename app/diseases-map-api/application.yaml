@@ -3,7 +3,7 @@ kind: Application
 metadata:
   name: diseases-map-api
 spec:
-  image: ghcr.io/phumitada/diseases-map-api:37424c9-1789885382338
+  image: ghcr.io/phumitada/diseases-map-api:37424c9-1789885764758
   port: 5207
   imagePullSecret: ghcr-secret
   databaseRef:
