@@ -1,0 +1,12 @@
+apiVersion: paas.internal/v1
+kind: Application
+metadata:
+  name: diseases-map-api
+spec:
+  image: null
+  port: null
+  imagePullSecret: ghcr-secret
+  databaseRef: []
+  domain: diseases-map-api.phumitada.com
+  envSecretRefs:
+    - diseases-map-api-env-secret
