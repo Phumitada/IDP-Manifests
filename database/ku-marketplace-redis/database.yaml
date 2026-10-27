@@ -1,0 +1,7 @@
+apiVersion: paas.internal/v1
+kind: Database
+metadata:
+  name: ku-marketplace-redis
+spec:
+  engine: redis
+  storage: 2Gi
