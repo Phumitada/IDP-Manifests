@@ -3,8 +3,8 @@ kind: Application
 metadata:
   name: ku-marketplace-api
 spec:
-  image: null
-  port: null
+  image: ghcr.io/phumitada/ku-marketplace-api:5b37858-1793117823333
+  port: 5001
   imagePullSecret: ghcr-secret
   databaseRef: []
   domain: ku-marketplace-api.phumitada.com
