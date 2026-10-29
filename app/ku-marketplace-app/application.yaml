@@ -7,6 +7,6 @@ spec:
   port: null
   imagePullSecret: ghcr-secret
   databaseRef: []
-  domain: http://ku-marketplace.phumitada.com
+  domain: ku-marketplace.phumitada.com
   envSecretRefs:
     - ku-marketplace-app-env-secret
