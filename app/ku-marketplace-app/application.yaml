@@ -1,0 +1,12 @@
+apiVersion: paas.internal/v1
+kind: Application
+metadata:
+  name: ku-marketplace-app
+spec:
+  image: null
+  port: null
+  imagePullSecret: ghcr-secret
+  databaseRef: []
+  domain: http://ku-marketplace.phumitada.com
+  envSecretRefs:
+    - ku-marketplace-app-env-secret
