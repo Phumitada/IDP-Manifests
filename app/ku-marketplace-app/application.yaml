@@ -3,7 +3,7 @@ kind: Application
 metadata:
   name: ku-marketplace-app
 spec:
-  image: ghcr.io/phumitada/ku-marketplace-app:68553a9-1793386979891
+  image: ghcr.io/phumitada/ku-marketplace-app:09c70d2-1793392103688
   port: 3000
   imagePullSecret: ghcr-secret
   databaseRef: []
